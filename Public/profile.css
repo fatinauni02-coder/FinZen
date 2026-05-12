@@ -1,0 +1,39 @@
+
+/* CARDS */
+.card {
+    background-color: #FBD3AC;
+    border: none;
+    border-radius: 12px;
+}
+
+/* PRIMARY BUTTON */
+.btn-primary {
+    background-color: #9AAB64;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #7f8f4f;
+}
+
+/* DANGER BUTTON */
+.btn-danger {
+    background-color: #AA333C;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #8f2a31;
+}
+
+/* INPUT FIELDS */
+.form-control {
+    border: 1px solid #9AAB64;
+    border-radius: 8px;
+}
+
+/* TEXT ACCENT */
+.text-muted {
+    color: #3C5227 !important;
+}

@@ -1,0 +1,51 @@
+:root {
+      --auburn:     #AA333C;
+      --sky:        #99D2FB;
+      --orange:     #FBD3AC;
+      --olivine:    #9AAB64;
+      --moss:       #3C5227;
+      --moss-dark:  #2d3e1d;
+      --moss-light: rgba(60,82,39,0.08);
+      --text:       #2a2a2a;
+      --muted:      #6b7c5a;
+      --border:     rgba(60,82,39,0.15);
+      --white:      #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--sky);
+      color: var(--text);
+      margin: 0;
+      min-height: 100vh;
+    }
+
+	.card {
+		border-radius: 12px;
+	}
+
+	.card-title {
+		color: #3C5227;
+	}
+
+	h2, h3{
+		color: #3C5227;
+		font-family: 'DM Serif Display', serif;
+	}
+
+	.btn-success {
+		background-color: #3C5227;
+		border-color: #3C5227;
+	}
+
+	.btn-outline-success {
+		color: #3C5227;
+		border-color: #3C5227;
+	}
+
+	.btn-outline-success:hover {
+		background-color: #3C5227;
+		border-color: #3C5227;
+	}

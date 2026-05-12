@@ -1,0 +1,201 @@
+.page-header {
+  background: linear-gradient(135deg, #3C5227 0%, #2d3e1d 100%);
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.page-header::after {
+  content: '';
+  position: absolute; bottom: -1px; left: 0; right: 0;
+  height: 30px;
+  background: #99D2FB;
+  clip-path: ellipse(55% 100% at 50% 100%);
+}
+.page-header::before {
+  content: '';
+  position: absolute; top: -60px; right: -60px;
+  width: 250px; height: 250px;
+  background: radial-gradient(circle, rgba(154,171,100,0.2), transparent 70%);
+}
+.page-title1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem; color: #FBD3AC;
+  margin-bottom: 15px; font-weight: 400;
+}
+.page-sub1 {
+  color: #E2C99E;
+  font-size: 1.1rem;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+
+#all:checked+label{
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #000000
+}
+#category-short:checked+label,
+#short-goals:checked+label{
+    color: #FFFFFF;
+    background-color: #3c5227;
+    border-color: #3c5227;
+}
+#category-middle:checked+label,
+#middle-goals:checked+label{
+    color: #FFFFFF;
+    background-color: #9aa864;
+    border-color: #9aa864
+}
+#category-long:checked+label,
+#long-goals:checked+label{
+    color: #000000;
+    background-color: #c2cc9a;
+    border-color: #c2cc9a
+}
+.btn-pilled-group button{
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+}
+
+.input-group .input-group-text{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.input-group input{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+#analytic h4{
+    font-size: medium;
+    font-weight: bold;
+}
+section h2{
+    text-align: center;
+    font-size: larger !important;
+}
+section h3{
+    font-size: small !important;
+}
+
+.types .btn-check + label,
+.choices .btn-check + label,
+#filter-btn-container .btn,
+.list-group .list-group-item {
+    border-radius: 12px !important;
+    margin: 2px !important;
+}
+
+.list-group .list-group-item:active,
+.card:active,
+.btn:active{
+    filter: brightness(0.9);
+    transition: filter 0.3s linear;
+}
+
+.list-group .list-group-item,
+.card,
+.btn{
+    transition: transform 0.3s ease;
+}
+
+.list-group .list-group-item:hover,
+.card:hover,
+.btn:hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.97)!important;
+}
+
+.short {
+    background-color: #3C5227 !important; 
+    color: #FFFFFF !important;}
+.middle {
+    background-color: #9aa864 !important;
+    color: #FFFFFF !important;}
+.long {
+    background: #c2cc9a !important; 
+    color: #000000 !important;}
+.negative {
+    background: #aa333c !important; 
+    color: #FFFFFF !important;}
+.positive {
+    background-color: #9aa864 !important;
+    color:#FFFFFF !important}
+
+.near-card-container{
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-stop: always;
+    scroll-snap-type: x mandatory;
+    transition: transform 100s ease;
+}
+
+.near-card:nth-child(1) { 
+    transform: rotate(-2deg);
+}
+.near-card:nth-child(2) { 
+    transform: rotate(2deg);
+}
+.near-card:nth-child(3) {
+    transform: rotate(-2deg);
+}
+.near-card:nth-child(4) {
+    transform: rotate(2deg);
+}
+.near-card:nth-child(5) {
+    transform: rotate(-2deg);
+}
+
+aside{
+    box-shadow: 4px 0 10px rgba(192, 192, 192, 0.2);
+    background-color: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+}
+
+.card{
+    border-width : 0 !important;
+    border-radius: 12px !important;
+}
+
+.progress{
+    height: 12px !important;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: medium !important;
+}
+.card-subtitle{
+    opacity: 0.6;
+    font-size: smaller !important;
+}
+.card-text{
+    font-size: small;
+}
+
+#analytic .card {
+    background-color: white;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 20px rgba(60,82,39,0.08);
+}
+
+#analytic h3 {
+    font-size: 0.78rem !important;
+    color: #6b7c5a;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+
+#analytic h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.6rem !important;
+    color: #3C5227;
+    font-weight: 400;
+    margin: 0;
+}

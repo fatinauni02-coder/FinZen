@@ -1,0 +1,35 @@
+{
+  "goals": [
+    {
+      "name": "Camera",
+      "deadline": "2026-09-03",
+      "target": 2000,
+      "category": "middle",
+      "type": "laptop",
+      "saved": 500,
+      "id": "w3lCkRv"
+    },
+    {
+      "name": "Matcha",
+      "deadline": "2026-05-13",
+      "target": 15.5,
+      "category": "short",
+      "type": "cup-hot",
+      "saved": 10,
+      "id": "valAlDM"
+    },
+    {
+      "name": "Japan Trip",
+      "deadline": "2026-09-25",
+      "target": 5200,
+      "category": "short",
+      "type": "airplane",
+      "saved": 0,
+      "id": "isf98jw"
+    }
+  ],
+  "profile": {
+    "userName": "User",
+    "joinDate": "2026-01-01"
+  }
+}

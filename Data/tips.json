@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Use the 50/30/20 rule",
+    "category": "Budgeting",
+    "content": "Divide your income into needs, wants, and savings so your spending is easier to control.",
+    "submittedBy": "System",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 2,
+    "title": "Save before spending",
+    "category": "Saving",
+    "content": "Put aside a small amount of money first before using the rest for daily expenses.",
+    "submittedBy": "System",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 3,
+    "title": "Avoid impulse buying",
+    "category": "Spending",
+    "content": "Wait at least one day before buying something that is not urgent.",
+    "submittedBy": "System",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 4,
+    "title": "Start investing with research",
+    "category": "Investing",
+    "content": "Do not invest just because of trends. Understand the risk and purpose before investing.",
+    "submittedBy": "System",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 5,
+    "title": "Track small expenses",
+    "category": "Budgeting",
+    "content": "Small daily spending like snacks, drinks, or delivery fees can become a large amount monthly.",
+    "submittedBy": "System",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 6,
+    "title": "30% Emergency",
+    "category": "Saving",
+    "content": "30% of the money is going to go to the saving",
+    "submittedBy": "User",
+    "createdAt": "2026-05-07"
+  },
+  {
+    "id": 7,
+    "title": "ASNB",
+    "category": "Saving",
+    "content": "10% of the money into ASNB Account",
+    "submittedBy": "User",
+    "createdAt": "2026-05-12"
+  }
+]
