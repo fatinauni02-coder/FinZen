@@ -1,9 +1,15 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
+const mongoose = require("mongoose");
+require("dotenv").config();
 
 const app = express();
 const PORT = 3000;
+
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("Connection failed:", err));
 
 // File paths
 const tipsFilePath = path.join(__dirname, "data", "tips.json");
